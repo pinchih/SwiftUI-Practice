@@ -11,6 +11,11 @@
 		9FAC8001253915520020FF2C /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8000253915520020FF2C /* HomeContentView.swift */; };
 		9FAC8003253915540020FF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAC8002253915540020FF2C /* Assets.xcassets */; };
 		9FAC8006253915540020FF2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAC8005253915540020FF2C /* Preview Assets.xcassets */; };
+		9FAC8010253917F20020FF2C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC800F253917F20020FF2C /* CardView.swift */; };
+		9FAC8014253918220020FF2C /* CardViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8013253918220020FF2C /* CardViewContentView.swift */; };
+		9FAC8017253919CC0020FF2C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8016253919CC0020FF2C /* Color+Extension.swift */; };
+		9FAC801C253951220020FF2C /* PokerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC801B253951220020FF2C /* PokerCard.swift */; };
+		9FAC801F2539517A0020FF2C /* PokerCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		9FAC8002253915540020FF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FAC8005253915540020FF2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FAC8007253915540020FF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAC800F253917F20020FF2C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9FAC8013253918220020FF2C /* CardViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewContentView.swift; sourceTree = "<group>"; };
+		9FAC8016253919CC0020FF2C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		9FAC801B253951220020FF2C /* PokerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCard.swift; sourceTree = "<group>"; };
+		9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			children = (
 				9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */,
 				9FAC8000253915520020FF2C /* HomeContentView.swift */,
+				9FAC800E253917D40020FF2C /* CardView */,
 				9FAC8002253915540020FF2C /* Assets.xcassets */,
 				9FAC8007253915540020FF2C /* Info.plist */,
 				9FAC8004253915540020FF2C /* Preview Content */,
@@ -67,6 +78,18 @@
 				9FAC8005253915540020FF2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9FAC800E253917D40020FF2C /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC8016253919CC0020FF2C /* Color+Extension.swift */,
+				9FAC800F253917F20020FF2C /* CardView.swift */,
+				9FAC8013253918220020FF2C /* CardViewContentView.swift */,
+				9FAC801B253951220020FF2C /* PokerCard.swift */,
+				9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAC8001253915520020FF2C /* HomeContentView.swift in Sources */,
+				9FAC8017253919CC0020FF2C /* Color+Extension.swift in Sources */,
+				9FAC8010253917F20020FF2C /* CardView.swift in Sources */,
+				9FAC801C253951220020FF2C /* PokerCard.swift in Sources */,
 				9FAC7FFF253915520020FF2C /* SwiftUI_PracticeApp.swift in Sources */,
+				9FAC801F2539517A0020FF2C /* PokerCardViewModel.swift in Sources */,
+				9FAC8014253918220020FF2C /* CardViewContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
