@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FA55794253F805D00D9AAD8 /* GridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA55793253F805D00D9AAD8 /* GridViewViewModel.swift */; };
+		9FA55798253F80C300D9AAD8 /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA55797253F80C300D9AAD8 /* GridData.swift */; };
 		9FAC7FFF253915520020FF2C /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */; };
 		9FAC8001253915520020FF2C /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8000253915520020FF2C /* HomeContentView.swift */; };
 		9FAC8003253915540020FF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAC8002253915540020FF2C /* Assets.xcassets */; };
@@ -16,9 +18,13 @@
 		9FAC8017253919CC0020FF2C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8016253919CC0020FF2C /* Color+Extension.swift */; };
 		9FAC801C253951220020FF2C /* PokerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC801B253951220020FF2C /* PokerCard.swift */; };
 		9FAC801F2539517A0020FF2C /* PokerCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */; };
+		9FAC8023253A9B9D0020FF2C /* GridViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8022253A9B9D0020FF2C /* GridViewContentView.swift */; };
+		9FAC8027253A9BD20020FF2C /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8026253A9BD20020FF2C /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9FA55793253F805D00D9AAD8 /* GridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewViewModel.swift; sourceTree = "<group>"; };
+		9FA55797253F80C300D9AAD8 /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
 		9FAC7FFB253915520020FF2C /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		9FAC8000253915520020FF2C /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +36,8 @@
 		9FAC8016253919CC0020FF2C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		9FAC801B253951220020FF2C /* PokerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCard.swift; sourceTree = "<group>"; };
 		9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCardViewModel.swift; sourceTree = "<group>"; };
+		9FAC8022253A9B9D0020FF2C /* GridViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewContentView.swift; sourceTree = "<group>"; };
+		9FAC8026253A9BD20020FF2C /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FA55796253F80BA00D9AAD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FA55797253F80C300D9AAD8 /* GridData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FA5579B253F80DB00D9AAD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FA55793253F805D00D9AAD8 /* GridViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9FAC7FF2253915520020FF2C = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +88,7 @@
 			children = (
 				9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */,
 				9FAC8000253915520020FF2C /* HomeContentView.swift */,
+				9FAC8021253A9B890020FF2C /* GridView */,
 				9FAC800E253917D40020FF2C /* CardView */,
 				9FAC8002253915540020FF2C /* Assets.xcassets */,
 				9FAC8007253915540020FF2C /* Info.plist */,
@@ -90,6 +115,17 @@
 				9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */,
 			);
 			path = CardView;
+			sourceTree = "<group>";
+		};
+		9FAC8021253A9B890020FF2C /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC8022253A9B9D0020FF2C /* GridViewContentView.swift */,
+				9FAC8026253A9BD20020FF2C /* GridView.swift */,
+				9FA5579B253F80DB00D9AAD8 /* ViewModel */,
+				9FA55796253F80BA00D9AAD8 /* Model */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +199,14 @@
 			files = (
 				9FAC8001253915520020FF2C /* HomeContentView.swift in Sources */,
 				9FAC8017253919CC0020FF2C /* Color+Extension.swift in Sources */,
+				9FA55798253F80C300D9AAD8 /* GridData.swift in Sources */,
 				9FAC8010253917F20020FF2C /* CardView.swift in Sources */,
+				9FAC8023253A9B9D0020FF2C /* GridViewContentView.swift in Sources */,
 				9FAC801C253951220020FF2C /* PokerCard.swift in Sources */,
+				9FA55794253F805D00D9AAD8 /* GridViewViewModel.swift in Sources */,
 				9FAC7FFF253915520020FF2C /* SwiftUI_PracticeApp.swift in Sources */,
 				9FAC801F2539517A0020FF2C /* PokerCardViewModel.swift in Sources */,
+				9FAC8027253A9BD20020FF2C /* GridView.swift in Sources */,
 				9FAC8014253918220020FF2C /* CardViewContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
