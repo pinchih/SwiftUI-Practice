@@ -13,6 +13,8 @@ struct HomeContentView: View {
             List {
                 NavigationLink(destination: CardViewContentView(numberOfCards: 5),
                                label: { Text("Poker Cards") })
+                NavigationLink(destination: GridViewContentView(GridViewViewModel(numberOfColumns: 10)),
+                               label: { Text("Grid") })
             }
             .navigationTitle("SwiftUI Practice")
         }
