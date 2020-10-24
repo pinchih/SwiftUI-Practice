@@ -15,6 +15,8 @@ struct HomeContentView: View {
                                label: { Text("Poker Cards") })
                 NavigationLink(destination: GridViewContentView(GridViewViewModel(numberOfColumns: 10)),
                                label: { Text("Grid") })
+                NavigationLink(destination: FlappyBirdContentView(),
+                               label: { Text("Simple Flappy Bird clone") })
             }
             .navigationTitle("SwiftUI Practice")
         }
