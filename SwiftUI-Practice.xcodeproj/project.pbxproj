@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F18654F2540C22400CD6190 /* DisplayLink in Frameworks */ = {isa = PBXBuildFile; productRef = 9F18654E2540C22400CD6190 /* DisplayLink */; };
 		9FA55794253F805D00D9AAD8 /* GridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA55793253F805D00D9AAD8 /* GridViewViewModel.swift */; };
 		9FA55798253F80C300D9AAD8 /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA55797253F80C300D9AAD8 /* GridData.swift */; };
 		9FAC7FFF253915520020FF2C /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */; };
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F18654F2540C22400CD6190 /* DisplayLink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-Practice";
+			packageProductDependencies = (
+				9F18654E2540C22400CD6190 /* DisplayLink */,
+			);
 			productName = "SwiftUI-Practice";
 			productReference = 9FAC7FFB253915520020FF2C /* SwiftUI-Practice.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 9FAC7FF2253915520020FF2C;
+			packageReferences = (
+				9F18654D2540C22400CD6190 /* XCRemoteSwiftPackageReference "DisplayLink" */,
+			);
 			productRefGroup = 9FAC7FFC253915520020FF2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -396,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F18654D2540C22400CD6190 /* XCRemoteSwiftPackageReference "DisplayLink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timdonnelly/DisplayLink";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F18654E2540C22400CD6190 /* DisplayLink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F18654D2540C22400CD6190 /* XCRemoteSwiftPackageReference "DisplayLink" */;
+			productName = DisplayLink;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FAC7FF3253915520020FF2C /* Project object */;
 }
