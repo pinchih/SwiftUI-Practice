@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9F18654F2540C22400CD6190 /* DisplayLink in Frameworks */ = {isa = PBXBuildFile; productRef = 9F18654E2540C22400CD6190 /* DisplayLink */; };
+		9F1865532540C25E00CD6190 /* FlappyBirdContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1865522540C25E00CD6190 /* FlappyBirdContentView.swift */; };
+		9F18655E2540DC0000CD6190 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18655D2540DC0000CD6190 /* GameController.swift */; };
+		9F1865622540DC2900CD6190 /* BirdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1865612540DC2900CD6190 /* BirdViewModel.swift */; };
 		9FA55794253F805D00D9AAD8 /* GridViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA55793253F805D00D9AAD8 /* GridViewViewModel.swift */; };
 		9FA55798253F80C300D9AAD8 /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA55797253F80C300D9AAD8 /* GridData.swift */; };
 		9FAC7FFF253915520020FF2C /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */; };
@@ -21,9 +24,14 @@
 		9FAC801F2539517A0020FF2C /* PokerCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */; };
 		9FAC8023253A9B9D0020FF2C /* GridViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8022253A9B9D0020FF2C /* GridViewContentView.swift */; };
 		9FAC8027253A9BD20020FF2C /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC8026253A9BD20020FF2C /* GridView.swift */; };
+		9FE1BA662540E8C5001446BA /* PillarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1BA652540E8C5001446BA /* PillarViewModel.swift */; };
+		9FE1BA692542321A001446BA /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1BA682542321A001446BA /* BirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1865522540C25E00CD6190 /* FlappyBirdContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdContentView.swift; sourceTree = "<group>"; };
+		9F18655D2540DC0000CD6190 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		9F1865612540DC2900CD6190 /* BirdViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewModel.swift; sourceTree = "<group>"; };
 		9FA55793253F805D00D9AAD8 /* GridViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewViewModel.swift; sourceTree = "<group>"; };
 		9FA55797253F80C300D9AAD8 /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
 		9FAC7FFB253915520020FF2C /* SwiftUI-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +47,8 @@
 		9FAC801E2539517A0020FF2C /* PokerCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerCardViewModel.swift; sourceTree = "<group>"; };
 		9FAC8022253A9B9D0020FF2C /* GridViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewContentView.swift; sourceTree = "<group>"; };
 		9FAC8026253A9BD20020FF2C /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9FE1BA652540E8C5001446BA /* PillarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillarViewModel.swift; sourceTree = "<group>"; };
+		9FE1BA682542321A001446BA /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1865512540C23100CD6190 /* Flappy bird */ = {
+			isa = PBXGroup;
+			children = (
+				9F1865522540C25E00CD6190 /* FlappyBirdContentView.swift */,
+				9FE1BA682542321A001446BA /* BirdView.swift */,
+				9F18655D2540DC0000CD6190 /* GameController.swift */,
+				9F1865602540DC1700CD6190 /* ViewModel */,
+			);
+			path = "Flappy bird";
+			sourceTree = "<group>";
+		};
+		9F1865602540DC1700CD6190 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F1865612540DC2900CD6190 /* BirdViewModel.swift */,
+				9FE1BA652540E8C5001446BA /* PillarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9FA55796253F80BA00D9AAD8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +120,7 @@
 			children = (
 				9FAC7FFE253915520020FF2C /* SwiftUI_PracticeApp.swift */,
 				9FAC8000253915520020FF2C /* HomeContentView.swift */,
+				9F1865512540C23100CD6190 /* Flappy bird */,
 				9FAC8021253A9B890020FF2C /* GridView */,
 				9FAC800E253917D40020FF2C /* CardView */,
 				9FAC8002253915540020FF2C /* Assets.xcassets */,
@@ -206,7 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAC8001253915520020FF2C /* HomeContentView.swift in Sources */,
+				9F1865532540C25E00CD6190 /* FlappyBirdContentView.swift in Sources */,
 				9FAC8017253919CC0020FF2C /* Color+Extension.swift in Sources */,
+				9F18655E2540DC0000CD6190 /* GameController.swift in Sources */,
+				9FE1BA662540E8C5001446BA /* PillarViewModel.swift in Sources */,
+				9FE1BA692542321A001446BA /* BirdView.swift in Sources */,
 				9FA55798253F80C300D9AAD8 /* GridData.swift in Sources */,
 				9FAC8010253917F20020FF2C /* CardView.swift in Sources */,
 				9FAC8023253A9B9D0020FF2C /* GridViewContentView.swift in Sources */,
@@ -215,6 +250,7 @@
 				9FAC7FFF253915520020FF2C /* SwiftUI_PracticeApp.swift in Sources */,
 				9FAC801F2539517A0020FF2C /* PokerCardViewModel.swift in Sources */,
 				9FAC8027253A9BD20020FF2C /* GridView.swift in Sources */,
+				9F1865622540DC2900CD6190 /* BirdViewModel.swift in Sources */,
 				9FAC8014253918220020FF2C /* CardViewContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
